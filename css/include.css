@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+#body{
+    min-width: 1200px;
+}
+/*헤더*/
+#header{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+}
+.headerWrap{
+    position: relative;
+    min-width: 1300px;
+    background: #1A1A1C;
+    height: 100px;
+    padding: 20px 100px;
+    box-sizing: border-box;
+}
+.headerWrap h1{
+    width: 111px;
+    height: 37px;
+    background: url(../images/common/logoGnb.png) no-repeat;
+    text-indent: -9999px;
+    position: absolute;
+    line-height: 30px;
+    margin: 12px 0;
+    z-index: 4;
+}
+.headerWrap h1 a{
+    display: block;
+    height: 37px;
+}
+.headerWrap li{
+    float: left;
+}
+.headerWrap li a{
+    display: block;
+}
+.gnb{
+    position: absolute;
+    right: 400px;
+    margin-left: 200px;
+}
+.gnb li{
+    margin:0 30px;
+}
+.gnb li a{
+    font-size: 20px;
+    color: #ddd;
+    line-height: 60px;
+}
+.util{
+    float: right;
+    background: #262628;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+.util li{margin: 0px 15px;}
+.util li a{
+    line-height: 60px;
+    font-weight: 400;
+    color: #eee;
+}
+
+
+
+
+
+/*푸터*/
+.footerInner{
+    background-color: #000;
+    color: #808080;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 80px 0 60px 0;
+}
+.footerInner p{text-align: center;}
+.footList01{
+    margin-right:  auto;
+    margin-left:  auto;
+    display: table;
+}
+.footList01 li{
+    float: left;
+    padding:  0 25px;
+    border-right: .5px solid #808080;
+}
+.footList01 li{line-height: 20px}
+.footList01 li:last-child{border-right:none;}
+.footerBtn{
+    margin-right:  auto;
+    margin-left:  auto;
+    display: table;
+    padding: 50px 0;
+}
+.footerBtn li{
+    float: left;
+    margin: 0 3px;
+    width: 200px;
+}
+.footerBtn li p{
+    color: #808080;
+    line-height: 50px;
+    background: #1A1A1C;
+}
+.footList02 li{
+    display: block;
+    padding-bottom: 20px;
+}
